@@ -8,14 +8,16 @@ def home(request):
 
 def runcode(request):
     if request.method == 'POST':
-        code_part = request.POST['code_area']
-        input_part = request.POST['input_area']
-        y = input_part
-        input_part = input_part.replace("\n"," ").split(",")
+        code_part = request.POST['code_area']  
+        input_part = request.POST['input_area']  
+
+        input_part = input_part.replace("\n"," ").split(",") 
+
         def input():
             a = input_part[0]
             del input_part[0]
             return a
+
         try:
             orig_stdout = sys.stdout
             sys.stdout = open('file.txt', 'w')
