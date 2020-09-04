@@ -10,7 +10,7 @@ def runcode(request):
     if request.method == 'POST':
         code_part = request.POST['code_area']  
         input_part = request.POST['input_area']  
-
+        y = input_part
         input_part = input_part.replace("\n"," ").split(",") 
 
         def input():
