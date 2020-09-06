@@ -1,6 +1,6 @@
 # CodeRace Python Online Editor
 
-##### Check it out: https://radiant-ridge-17248.herokuapp.com/run
+##### Check it out: https://radiant-ridge-17248.herokuapp.com
 
 ### Developed using Django web FrameWork Jdoodle compiler API
 
@@ -16,11 +16,11 @@
 
 #### git clone https://github.com/maliaditya/Web-Dev-in-Django-.git
 
-#### pip install Django==3.0
-
-#### python3 manage.py migrate
+#### pip install -r requirements.txt 
 
 #### python3 manage.py makemigrations
+
+#### python3 manage.py migrate
 
 #### python3 manage.py runserver
 
