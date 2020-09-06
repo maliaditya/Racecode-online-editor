@@ -65,9 +65,9 @@ def runcode(request):
             'script':code_part,
             'language': lang,
             'versionIndex': lang_dict[lang],
-            'clientId': "f239f30780ae492d1c4a34543395e688",
+            'clientId': "enter your client id here",
             'stdin': input_part ,
-            'clientSecret':"403da617b9be15fb26e2fd75bb493697b3cbd0d2d5dbc760ecbbabbca03a4829"
+            'clientSecret':"enter your client secret here"
         }
 
         r = requests.post('https://api.jdoodle.com/v1/execute',json=payload,headers=headers)
