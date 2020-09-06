@@ -1,8 +1,8 @@
-# RaceCode Python Online Editor
+# CodeRace Python Online Editor
 
 ##### Check it out: https://radiant-ridge-17248.herokuapp.com/run
 
-### Developed using Django web FrameWork
+### Developed using Django web FrameWork Jdoodle compiler API
 
 ### Run it on you PC
 
