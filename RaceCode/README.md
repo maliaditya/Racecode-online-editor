@@ -4,9 +4,9 @@
 
 ### Developed using Django web FrameWork Jdoodle compiler API
 
-### Sign Up to Jdoodle wbsite 
+### Sign Up to Jdoodle website: https://www.jdoodle.com/ 
 
-### choose the free plan https://www.jdoodle.com/compiler-api/
+### choose the free plan: https://www.jdoodle.com/compiler-api/
 
 ### Now you will you will have the Credentials required  Client ID and Client Secret.
 
